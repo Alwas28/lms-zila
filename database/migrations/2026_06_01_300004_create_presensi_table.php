@@ -24,7 +24,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('presensi_sesi_id')->constrained('presensi_sesi')->cascadeOnDelete();
             $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
-            $table->enum('status', ['hadir', 'izin', 'alpha'])->default('alpha');
+            $table->enum('status', ['hadir', 'izin', 'sakit', 'alpha'])->default('alpha');
             $table->timestamp('waktu_masuk')->nullable();
             $table->timestamps();
 
