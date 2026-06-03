@@ -1,0 +1,234 @@
+Berikut rancangan fitur untuk LMS sederhana yang berorientasi pada pengelolaan mata kuliah, RPS, pembelajaran, tugas, dan ujian.
+
+1. Dashboard
+Admin
+Jumlah mata kuliah aktif
+Jumlah kelas aktif
+Jumlah dosen
+Jumlah mahasiswa
+Statistik aktivitas pembelajaran
+Dosen
+Mata kuliah yang diampu
+Jadwal perkuliahan
+Tugas yang perlu dinilai
+Ujian yang sedang berlangsung
+Mahasiswa
+Mata kuliah yang diikuti
+Tugas yang belum dikerjakan
+Jadwal ujian
+Nilai terbaru
+2. Manajemen Akademik
+Tahun Akademik
+Tambah tahun akademik
+Edit tahun akademik
+Aktifkan tahun akademik
+Nonaktifkan tahun akademik
+
+Contoh:
+
+2025/2026
+2026/2027
+Semester
+Semester ganjil
+Semester genap
+Menentukan semester aktif
+3. Manajemen Pengguna
+Dosen
+Tambah dosen
+Edit data dosen
+Import dosen dari Excel
+Reset password
+Mahasiswa
+Tambah mahasiswa
+Edit data mahasiswa
+Import mahasiswa dari Excel
+Reset password
+4. Manajemen Mata Kuliah
+Data Mata Kuliah
+Kode mata kuliah
+Nama mata kuliah
+SKS
+Deskripsi
+Semester
+Fitur
+Tambah mata kuliah
+Edit mata kuliah
+Arsip mata kuliah
+5. Manajemen Kelas
+Data Kelas
+Nama kelas
+Mata kuliah
+Tahun akademik
+Semester
+Kapasitas mahasiswa
+Fitur
+Membuat kelas
+Menutup kelas
+Menyalin kelas semester sebelumnya
+
+Contoh:
+
+Algoritma Pemrograman - A
+Algoritma Pemrograman - B
+6. Pengampu Mata Kuliah
+Fitur
+Menetapkan dosen pengampu
+Multi dosen dalam satu kelas
+Koordinator mata kuliah
+Output
+Daftar dosen pengampu per kelas
+7. Enroll Mahasiswa
+Manual
+Tambah mahasiswa satu per satu
+Batch
+Import Excel
+Import CSV
+Fitur
+Pindah kelas
+Hapus mahasiswa dari kelas
+Lihat peserta kelas
+8. Manajemen RPS
+Data RPS
+Deskripsi mata kuliah
+CPL
+CPMK
+Sub-CPMK
+Metode pembelajaran
+Referensi
+Fitur
+Membuat RPS
+Upload RPS PDF
+Generate RPS otomatis
+Clone RPS semester sebelumnya
+9. Manajemen Pertemuan
+Pertemuan 1–16
+Data
+Topik
+CPMK terkait
+Metode pembelajaran
+Fitur
+Tambah pertemuan
+Edit pertemuan
+Menentukan minggu perkuliahan
+10. Materi Pembelajaran
+Jenis Materi
+PDF
+PPT
+Video
+Audio
+Link YouTube
+Link Website
+Dokumen
+Fitur
+Upload materi
+Preview materi
+Download materi
+Materi wajib dibaca
+11. Tugas
+Tugas Individu
+Fitur
+Judul tugas
+Deskripsi
+Deadline
+Upload file
+Tugas Kelompok
+Fitur
+Membuat kelompok
+Menentukan anggota
+Upload hasil kelompok
+Penilaian
+Rubrik penilaian
+Nilai
+Feedback
+12. Forum Diskusi
+Fitur
+Diskusi per materi
+Tanya jawab mahasiswa
+Respon dosen
+Lampiran file
+13. Presensi
+Dosen
+Membuka presensi
+Mahasiswa
+Check-in kehadiran
+Fitur
+Presensi dengan kode
+Presensi berdasarkan waktu
+Rekap kehadiran
+14. Bank Soal
+Pilihan Ganda
+Data
+Pertanyaan
+Opsi jawaban
+Kunci jawaban
+Bobot
+Essay
+Data
+Pertanyaan
+Rubrik penilaian
+Fitur
+Kategori soal
+Import soal
+Random soal
+15. Ujian
+UTS
+UAS
+Quiz
+Pengaturan
+Durasi
+Jadwal mulai
+Jadwal selesai
+Jumlah soal
+Fitur
+Acak soal
+Acak jawaban
+Batas percobaan
+Auto submit
+16. Penilaian
+Komponen Nilai
+Kehadiran
+Tugas
+Quiz
+UTS
+UAS
+Fitur
+Bobot penilaian
+Input nilai manual
+Nilai otomatis
+17. Capaian CPMK
+Fitur
+Mapping soal ke CPMK
+Mapping tugas ke CPMK
+Persentase ketercapaian CPMK
+Grafik capaian mahasiswa
+
+Contoh:
+
+CPMK	Target	Capaian
+CPMK 1	75%	82%
+CPMK 2	75%	78%
+CPMK 3	75%	69%
+18. Laporan
+Laporan Dosen
+Daftar hadir
+Nilai mahasiswa
+Aktivitas pembelajaran
+Laporan Mahasiswa
+Transkrip nilai
+Kehadiran
+Riwayat tugas
+Export
+PDF
+Excel
+19. Pengumuman
+Fitur
+Pengumuman kelas
+Pengumuman mata kuliah
+Notifikasi mahasiswa
+20. Notifikasi
+Notifikasi Sistem
+Tugas baru
+Deadline tugas
+Jadwal ujian
+Nilai telah terbit
+Pengumuman baru

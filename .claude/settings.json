@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\dashboard\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"e:\\\\Project\\\\lms-zila\\\\app\\\\Http\\\\Controllers\\\\Admin\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\admin\\\\tahun-akademik\")",
+      "PowerShell(cd \"e:\\\\Project\\\\lms-zila\" ; php artisan tinker --execute=\"echo 'Users: '; App\\\\Models\\\\User::all\\(['name','role','nip_nim']\\)->each\\(fn\\(\\\\$u\\) => print\\(\\\\$u->name.' ['.\\\\$u->role.'] NIP/NIM:'.\\\\$u->nip_nim.PHP_EOL\\)\\); echo 'Semester aktif: '; \\\\$s = App\\\\Models\\\\Semester::aktif\\(\\); echo \\\\$s?->label ?? 'Tidak ada';\" 2>&1)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\admin\\\\dosen\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\admin\\\\mahasiswa\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\admin\\\\mata-kuliah\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\admin\\\\kelas\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\admin\\\\pengampu\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"e:\\\\Project\\\\lms-zila\\\\resources\\\\views\\\\admin\\\\enroll\")",
+      "Bash(php -l app/Models/Pertemuan.php)",
+      "Bash(php -l app/Models/Rps.php)",
+      "Bash(php -l app/Models/Materi.php)",
+      "Bash(php -l app/Models/Tugas.php)",
+      "Bash(php -l app/Models/TugasSubmission.php)",
+      "Bash(php -l app/Http/Controllers/Dosen/MataKuliahController.php)",
+      "Bash(php -l app/Http/Controllers/Dosen/PertemuanController.php)",
+      "Bash(php -l app/Http/Controllers/Dosen/MateriController.php)",
+      "Bash(php -l app/Http/Controllers/Dosen/RpsController.php)",
+      "Bash(php -l app/Http/Controllers/Dosen/TugasController.php)"
+    ]
+  }
+}
