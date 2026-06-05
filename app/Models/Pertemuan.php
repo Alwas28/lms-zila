@@ -16,8 +16,9 @@ class Pertemuan extends Model
     ];
 
     protected $casts = [
-        'tanggal' => 'date',
-        'status'  => 'string',
+        'kelas_id' => 'integer',
+        'tanggal'  => 'date',
+        'status'   => 'string',
     ];
 
     // ── Relations ─────────────────────────────────────────────

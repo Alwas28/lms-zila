@@ -11,6 +11,8 @@ class UjianSoal extends Model
 
     protected $fillable = ['ujian_id', 'bank_soal_id', 'nomor'];
 
+    protected $casts = ['ujian_id' => 'integer', 'bank_soal_id' => 'integer'];
+
     public function ujian(): BelongsTo
     {
         return $this->belongsTo(Ujian::class);

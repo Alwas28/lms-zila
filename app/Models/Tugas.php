@@ -15,7 +15,9 @@ class Tugas extends Model
     ];
 
     protected $casts = [
-        'deadline' => 'datetime',
+        'kelas_id'     => 'integer',
+        'pertemuan_id' => 'integer',
+        'deadline'     => 'datetime',
     ];
 
     // ── Relations ─────────────────────────────────────────────

@@ -18,6 +18,7 @@ class Ujian extends Model
     ];
 
     protected $casts = [
+        'kelas_id'        => 'integer',
         'mulai_at'        => 'datetime',
         'selesai_at'      => 'datetime',
         'is_acak_soal'    => 'boolean',

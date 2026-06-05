@@ -14,6 +14,7 @@ class TugasSubmission extends Model
     ];
 
     protected $casts = [
+        'tugas_id'     => 'integer',
         'submitted_at' => 'datetime',
     ];
 
